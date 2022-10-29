@@ -42,3 +42,14 @@ class Auto:
 brands_of_car = {"BMW":{'fuel':100, "strength":100, "consuption":6},
                  "Lnos":{'fuel':170, "strength":60, "consuption":10},
                  "Lamborgini":{'fuel':150, "strength":130, "consuption":2}}
+
+def drive(self):
+    if self.strength>0 and
+        self.fuel>=self.consumpition:
+        self.fuel-=self.consumpition]
+        self.strength-=1
+        return True
+    else:
+        print("The car cannot move")
+        return False
+
