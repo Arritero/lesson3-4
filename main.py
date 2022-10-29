@@ -39,3 +39,6 @@ class Auto:
         self.strength = brand_list[self.brand]['strength']
         self.fuel = brand_list
         self.consumption = brand_list[self.brand]['consumption']
+brands_of_car = {"BMW":{'fuel':100, "strength":100, "consuption":6},
+                 "Lnos":{'fuel':170, "strength":60, "consuption":10},
+                 "Lamborgini":{'fuel':150, "strength":130, "consuption":2}}
