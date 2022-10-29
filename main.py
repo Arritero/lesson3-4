@@ -52,4 +52,17 @@ def drive(self):
     else:
         print("The car cannot move")
         return False
-
+class House:
+    def __init__(self):
+        self.mess = 0
+        self.food = 0
+class Job:
+    def __init__(self, job_list):
+        self.job=random.choice(list(job_list))
+        self.salary=job_list[self.job]
+                     ["salary"]
+        self.gladneess_less=job+list[self.job]
+                     ["gladness_less"]
+job_list = {
+    ""
+}
